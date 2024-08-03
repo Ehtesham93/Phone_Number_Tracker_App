@@ -68,8 +68,6 @@ class Location_Tracker:
                 country = "Error occurred"
                 print(f"Error: {e}")
         self.country_label.configure(text=country)
-
-
 PhoneTracker = Tk()
 MyApp = Location_Tracker(PhoneTracker)
 PhoneTracker.mainloop()
